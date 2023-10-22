@@ -1,6 +1,6 @@
 import React from 'react';
 import { Carousel } from 'flowbite-react';
-import banner from '../assets/banner.jpg'
+import illustration from '../assets/Illustration.png'
 
 const Home = () => {
   return (
@@ -9,7 +9,7 @@ const Home = () => {
             <Carousel className='w-full mx-auto'>
                 <div className="my-28 md:my-28 py-12 flex flex-col md:flex-row-reverse items-center justify-between gap-12">
                     <div>
-                        <img className='w-20' src={banner} alt='img'/>
+                        <img src={illustration} alt='img'/>
                     </div>
                     {/* hero text */}
                     <div className='md:w-1/2'>
@@ -22,7 +22,7 @@ const Home = () => {
 
                 <div className="my-28 md:my-28 py-12 flex flex-col md:flex-row-reverse items-center justify-between gap-12">
                     <div>
-                        <img className='w-20' src={banner} alt='img'/>
+                        <img src={illustration} alt='img'/>
                     </div>
                     {/* hero text */}
                     <div className='md:w-1/2'>
