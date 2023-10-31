@@ -21,11 +21,11 @@ const Blog
         {/* all blogs */}
         <div className='grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 items-center justify-between'>
             {
-                blogs.map(blog => <div key={blog.id}>
-                    <img src={blog.image} alt='img'/>
-                    <div>
-                        <h3>{blog.title}</h3>
-                        <div className='flex items-center gap-8'>
+                blogs.map(blog => <div key={blog.id} className='mx-auto relative mb-12 cursor-pointer'>
+                    <img src={blog.image} alt='img' className='hover:scale-95 transition-all duration-300'/>
+                    <div className='text-center px-4 py-8 bg-white shadow-lg rounded-md md:w-3/4 mx-auto absolute left-0 right-0 -border-12'>
+                        <h3 className='mb-3 text-neutralGrey font-semibold'>{blog.title}</h3>
+                        <div className='flex items-center justify-center gap-8'>
                                         <a href='/' className='font-bold text-brandPrimary hover:text-neutral-700'> Readmore 
                                         <svg xmlns="http://www.w3.org/2000/svg" 
                                         width="17" 
