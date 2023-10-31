@@ -8,7 +8,7 @@ import logo8 from '../assets/Logo8.png'
 
 const Services = () => {
   const services = [
-    {id: 1, title: 'Membership Organisations', description: 'Our membership management software provides full automation of membership renewals and payments', image: '/src/assets/Icon1.png'},
+    {id: 1, title: 'Membership Organisations', description: 'Our membership management software provides full automation of membership renewals and payments', image: '/src/assets/icons/Icon1.png'},
     {id: 2, title: 'National Associations', description: 'Our membership management software provides full automation of membership renewals and payments', image: '/src/assets/Icon2.png'},
     {id: 3, title: 'Clubs And Groups', description: 'Our membership management software provides full automation of membership renewals and payments', image: '/src/assets/Icon3.png'}
   ]
