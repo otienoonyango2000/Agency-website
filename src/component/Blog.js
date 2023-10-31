@@ -19,7 +19,7 @@ const Blog
                     </p>
         </div>
         {/* all blogs */}
-        <div>
+        <div className='grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 items-center justify-between'>
             {
                 blogs.map(blog => <div key={blog.id}>
                     <img src={blog.image} alt='img'/>
